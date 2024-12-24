@@ -24,7 +24,7 @@ export default function AllTabs() {
   
   return (
     <div className="inner-products">
-      <Tabs defaultActiveKey="contracts" id="uncontrolled-tab-example" className="mb-3">
+      <Tabs defaultActiveKey="schedule" id="uncontrolled-tab-example" className="mb-3">
         <Tab eventKey="students" title="لائحة التلاميد">
           <Students globData={data} />
         </Tab>
