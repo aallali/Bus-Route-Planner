@@ -90,7 +90,7 @@ export function updateData(newData, type) {
       });
   });
 }
-export function prepareData(myData) {
+export function aggregateClassSchedules(myData) {
   if (JSON.stringify(myData) === JSON.stringify({})) return;
 
   const classStation = {};

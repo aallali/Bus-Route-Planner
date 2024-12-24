@@ -3,7 +3,8 @@ import { useState, useEffect } from "react";
 import { Table, Row, Col, Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
-import { updateData, prepareData, guidGenerator } from "../../../utils/dataHooks";
+import { updateData, guidGenerator } from "../../../utils/dataHooks";
+import aggregateClassSchedulesV2 from "../../../utils/aggregateClassSchedules";
 
 const days = ["الأثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعه"];
 const times = ["8:30-9:30", "9:30-10:30", "10:30-11:30", "11:30-12:30", "#", "14:30-15:30", "15:30-16:30", "16:30-17:30", "17:30-18:30"].map((l) =>
@@ -23,8 +24,8 @@ export default function Schedule({ globData }) {
     day4: [],
     day5: [],
   });
-  const [allTimes, updateAllTimes] = useState(prepareData(JSON.parse(JSON.stringify(data))));
-
+  const [allTimes, updateAllTimes] = useState({});
+ 
   /**
    * local shecule updater
    */
@@ -67,7 +68,7 @@ export default function Schedule({ globData }) {
         updateData({ ...schedules }, "schedule");
       }
     }
-    updateAllTimes(prepareData(JSON.parse(JSON.stringify(data))));
+    updateAllTimes(aggregateClassSchedulesV2(JSON.parse(JSON.stringify(data))));
   }, [schedules]);
 
   if (!(data.students && data.schedule)) return null;
