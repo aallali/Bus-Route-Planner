@@ -1,0 +1,456 @@
+{
+  "schedule": {
+    "1APIC-10": {
+      "class": "1APIC-10",
+      "day1": [
+        "8:30 ← 9:30",
+        "10:30 ← 11:30",
+        "11:30 ← 12:30",
+        "9:30 ← 10:30",
+        "15:30 ← 16:30",
+        "16:30 ← 17:30",
+        "17:30 ← 18:30"
+      ],
+      "day2": [],
+      "day3": [],
+      "day4": [
+        "10:30 ← 11:30",
+        "11:30 ← 12:30"
+      ],
+      "day5": [
+        "9:30 ← 10:30",
+        "10:30 ← 11:30",
+        "11:30 ← 12:30"
+      ]
+    },
+    "2APIC-1": {
+      "class": "2APIC-1",
+      "day1": [
+        "8:30 ← 9:30",
+        "9:30 ← 10:30"
+      ],
+      "day2": [
+        "15:30 ← 16:30",
+        "14:30 ← 15:30",
+        "16:30 ← 17:30",
+        "17:30 ← 18:30"
+      ],
+      "day3": [],
+      "day4": [],
+      "day5": []
+    },
+    "1APIC-9": {
+      "class": "1APIC-9",
+      "day1": [
+        "9:30 ← 10:30",
+        "8:30 ← 9:30"
+      ],
+      "day2": [],
+      "day3": [],
+      "day4": [],
+      "day5": []
+    },
+    "3APIC-4": {
+      "class": "3APIC-4",
+      "day1": [
+        "8:30 ← 9:30",
+        "9:30 ← 10:30"
+      ],
+      "day2": [],
+      "day3": [],
+      "day4": [
+        "8:30 ← 9:30",
+        "9:30 ← 10:30"
+      ],
+      "day5": []
+    }
+  },
+  "students": [
+    {
+      "contractID": "2023/01",
+      "name": "عمر القاسمي",
+      "classe": "2APIC-1",
+      "station": "مكتبة الطالب",
+      "phoneNumber": "06.61.06.61.06",
+      "address": "مرجان 2",
+      "parent": "فاطمة القاسمي",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 3300
+    },
+    {
+      "contractID": "2023/02",
+      "name": "نورا العلوي",
+      "classe": "2APIC-1",
+      "station": "حديقة مكتبة القراء",
+      "phoneNumber": "06.61.06.61.06",
+      "address": "اناسي",
+      "parent": "يوسف العلوي",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 3150
+    },
+    {
+      "contractID": "2023/03",
+      "name": "زينب الرحماني",
+      "classe": "2APIC-5",
+      "station": "ملاعب القرب",
+      "phoneNumber": "00",
+      "address": "مرجان 2",
+      "parent": "حسن الرحماني",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 2650
+    },
+    {
+      "contractID": "2023/04",
+      "name": "ليلى الحسني",
+      "classe": "2APIC-1",
+      "station": "السوق الممتاز الأناسي",
+      "phoneNumber": "00",
+      "address": "اناسي",
+      "parent": "عبدالكريم الحسني",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 3300
+    },
+    {
+      "contractID": "2023/07",
+      "name": "ماجد بن طلال",
+      "classe": "TCSF-5",
+      "school": "anassi 2",
+      "station": "مقهى بلقاضي",
+      "phoneNumber": "07.61.06.61.06",
+      "address": "النعيم",
+      "parent": "منى بن طلال",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 3600
+    },
+    {
+      "contractID": "2023/08",
+      "name": "سلمى الإدريسي",
+      "classe": "2BAC_SH1",
+      "station": "مجزرة الريف شارع النخلة",
+      "phoneNumber": "00",
+      "address": "مرجان 2",
+      "parent": "نجوى الإدريسي",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 3800
+    },
+    {
+      "contractID": "2023/09",
+      "name": "هيثم الصباغ",
+      "classe": "2APIC-3",
+      "school": "anassi 2",
+      "station": "صيدلية الخليل",
+      "phoneNumber": "06.61.06.61.06",
+      "address": "المنتزه 1",
+      "parent": "فوزية الصباغ",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 3800
+    },
+    {
+      "contractID": "2023/10",
+      "name": "ياسمين فوزي",
+      "classe": "1APIC-9",
+      "station": "مكتب العمران",
+      "phoneNumber": "06.61.06.61.06",
+      "address": "رياض الزيتون",
+      "parent": "مصطفى فوزي",
+      "parentNumber": "06.61.06.61.06",
+      "school": "anassi 2",
+      "totalAmountToPay": 2500
+    },
+    {
+      "contractID": "2023/11",
+      "name": "أحمد قاسم",
+      "classe": "1APIC-10",
+      "station": "ملاعب القرب",
+      "phoneNumber": "-",
+      "address": "مرجان 2",
+      "parent": "هدى قاسم",
+      "parentNumber": "06.61.06.61.06",
+      "school": "anassi 2",
+      "totalAmountToPay": 3800
+    },
+    {
+      "contractID": "2023/12",
+      "name": "يوسف عز الدين",
+      "classe": "3APC2",
+      "station": "زنقة الملبنة",
+      "phoneNumber": "00",
+      "address": "مرجان 2",
+      "parent": "سارة عز الدين",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 3800
+    },
+    {
+      "contractID": "2023/14",
+      "name": "هديل عبدالسلام",
+      "classe": "2APIC-1",
+      "station": "مقهى أمورال",
+      "phoneNumber": "00",
+      "address": "المنتزه 2 الدالية",
+      "parent": "رشيد عبدالسلام",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 3600
+    },
+    {
+      "contractID": "2023/15",
+      "name": "آية سعيد",
+      "classe": "2APIC-1",
+      "station": "جهة الحرث",
+      "phoneNumber": "06.61.06.61.06",
+      "address": "المنتزه 2 الدالية",
+      "parent": "أمل سعيد",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 3600
+    },
+    {
+      "contractID": "2023/16",
+      "name": "فاطمة الزهراء منصور",
+      "classe": "3APIC2",
+      "station": "رومبوان العمارات",
+      "phoneNumber": "00",
+      "address": "منازل الاسماعيلية",
+      "parent": "نوال منصور",
+      "parentNumber": "07.61.06.61.06",
+      "totalAmountToPay": 3800
+    },
+    {
+      "contractID": "2023/17",
+      "name": "آدم الكرومي",
+      "classe": "2APIC3",
+      "station": "الرونبوان",
+      "phoneNumber": "06.61.06.61.06",
+      "address": "المنتزه 1",
+      "parent": "أسماء الكرومي",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 3800
+    },
+    {
+      "contractID": "2023/18",
+      "name": "خالد النعيمي",
+      "classe": "1APIC-10",
+      "station": "مقهى جيرونا",
+      "phoneNumber": "00",
+      "address": "النعيم",
+      "parent": "منى النعيمي",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 1800
+    },
+    {
+      "contractID": "2023/21",
+      "name": "رامي اليزيدي",
+      "classe": "1APIC-7",
+      "station": "زنقة الملبنة",
+      "phoneNumber": "00",
+      "address": "مرجان 2",
+      "parent": "مريم اليزيدي",
+      "parentNumber": "07.61.06.61.06",
+      "totalAmountToPay": 3000
+    },
+    {
+      "contractID": "2023/23",
+      "name": "مريم البوطي",
+      "classe": "2BAC_SH1",
+      "station": "مقهى بلقاضي",
+      "phoneNumber": "00",
+      "address": "النعيم",
+      "parent": "عبدالسلام البوطي",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 3800
+    },
+    {
+      "contractID": "2023/24",
+      "name": "إبراهيم الطاهري",
+      "classe": "2APIC-6",
+      "station": "مقهى امام بريستيج",
+      "phoneNumber": "00",
+      "address": "اناسي 1",
+      "parent": "أحمد الطاهري",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 3300
+    },
+    {
+      "contractID": "2023/25",
+      "name": "صفاء العبيدي",
+      "classe": "1APIC-7",
+      "station": "ملاعب القرب اكسترا فينيست",
+      "phoneNumber": "06.61.06.61.06",
+      "address": "مرجان 2",
+      "parent": "خالد العبيدي",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 2700
+    },
+    {
+      "contractID": "2023/26",
+      "name": "زينب القروي",
+      "classe": "3APC",
+      "station": "رونبوان العمارات",
+      "phoneNumber": "00",
+      "address": "منازل الاسماعيلية",
+      "parent": "نجاة القروي",
+      "parentNumber": "07.61.06.61.06",
+      "totalAmountToPay": 3000
+    },
+    {
+      "contractID": "2023/27",
+      "name": "سامر الحسيني",
+      "classe": "1APIC-9",
+      "station": "00",
+      "phoneNumber": "06.61.06.61.06",
+      "address": "00",
+      "parent": "عبدالله الحسيني",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 3800
+    },
+    {
+      "contractID": "04/2023",
+      "name": "لين الشريفي",
+      "classe": "1APIC-9",
+      "station": "صيدلية المعتمد بن عباد",
+      "phoneNumber": "00",
+      "address": "المنتزه",
+      "parent": "حسن الشريفي",
+      "parentNumber": "06.61.06.61.06",
+      "totalAmountToPay": 3300
+    }
+  ],
+  "paychecks": [
+    {
+      "id": "97cd4602-1672945671304-1adc",
+      "cid": "2023/25",
+      "amount": "1500",
+      "date": "28/12/2022"
+    },
+    {
+      "id": "d25f0d80-1672945429058-3f89",
+      "cid": "2023/24",
+      "amount": "3300",
+      "date": "15/09/2022"
+    },
+    {
+      "id": "cae85748-1672943541514-b290",
+      "cid": "04/2023",
+      "amount": "1200",
+      "date": "15/10/2022"
+    },
+    {
+      "id": "904f1a25-1672943422044-2a86",
+      "cid": "01",
+      "amount": "400",
+      "date": "19/12/2022"
+    },
+    {
+      "id": "6b0dcc65-1672942473642-3a23",
+      "cid": "2023/21",
+      "amount": "1500",
+      "date": "02/01/2023"
+    },
+    {
+      "id": "91fb1e3c-1672941341255-693a",
+      "cid": "2023/15",
+      "amount": "1500",
+      "date": "04/01/2023"
+    },
+    {
+      "id": "aac60c1b-1672941266144-65e8",
+      "cid": "2023/14",
+      "amount": "1500",
+      "date": "04/01/2023"
+    },
+    {
+      "id": "705b5aac-1672940985301-402d",
+      "cid": "2023/12",
+      "amount": "1500",
+      "date": "02/12/2022"
+    },
+    {
+      "id": "78b0fa91-1672940600442-8d4d",
+      "cid": "2023/09",
+      "amount": "2400",
+      "date": "11/12/2022"
+    },
+    {
+      "id": "d6d42cdd-1672927551121-f8b4",
+      "cid": "2023/03",
+      "amount": "500",
+      "date": "06/11/2022"
+    },
+    {
+      "id": "bdb8079a-1672912443514-de93",
+      "cid": "2023/01",
+      "amount": "1040",
+      "date": "04/11/2022"
+    },
+    {
+      "id": "83754dc6-1672912296452-e5d8",
+      "cid": "2023/02",
+      "amount": "1200",
+      "date": "14/10/2022"
+    },
+    {
+      "id": "b6993317-1672912697424-b291",
+      "cid": "2023/04",
+      "amount": "1200",
+      "date": "15/10/2022"
+    },
+    {
+      "id": "3b56f742-1672913966536-3e7e",
+      "cid": "2023/07",
+      "amount": "2100",
+      "date": "02/11/2022"
+    },
+    {
+      "id": "4cc9876d-1672927955452-13e9",
+      "cid": "2023/08",
+      "amount": "600",
+      "date": "15/09/2022"
+    },
+    {
+      "id": "0966fe46-1672940733080-9122",
+      "cid": "2023/10",
+      "amount": "500",
+      "date": "15/09/2022"
+    },
+    {
+      "id": "fbef38f2-1672940801014-3b5f",
+      "cid": "2023/11",
+      "amount": "900",
+      "date": "15/09/2022"
+    },
+    {
+      "id": "bff8dc97-1672941526502-ec86",
+      "cid": "2023/16",
+      "amount": "900",
+      "date": "21/11/2022"
+    },
+    {
+      "id": "558fcc8f-1672941627380-f6dc",
+      "cid": "2023/17",
+      "amount": "600",
+      "date": "15/09/2022"
+    },
+    {
+      "id": "d88b4fc6-1672942153413-bee6",
+      "cid": "2023/18",
+      "amount": "550",
+      "date": "28/12/2022"
+    },
+    {
+      "id": "3a3fa406-1672943292167-26fa",
+      "cid": "2023/23",
+      "amount": "2400",
+      "date": "02/01/2023"
+    },
+    {
+      "id": "41e8f79b-1672945861557-ded0",
+      "cid": "2023/26",
+      "amount": "1000",
+      "date": "20/12/2022"
+    },
+    {
+      "id": "092c9cf9-1673088098697-f2a5",
+      "cid": "2023/07",
+      "amount": "600",
+      "date": "06/01/2023"
+    }
+  ]
+}
